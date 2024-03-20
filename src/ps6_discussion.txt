@@ -1,0 +1,18 @@
+In a multi-client environment like a shared drawing program, you can run into some really specific and tricky problems.
+Let's say you and your friends are all drawing on the same digital canvas from different computers. One big issue could
+be if two of you try to draw on the exact same spot at the same time. It's like if you both tried to color the same part
+of a picture with different colors – it would turn into a weird mix that nobody wanted. Another example could be if you're
+trying to draw a straight line, but because of a delay in the network, your line shows up all zigzagged on your friend's
+screen. Or imagine you're erasing a mistake, but on your friend's computer, it still shows up because the update hasn't
+reached them yet. These kinds of things can make the whole drawing process really confusing and frustrating. Synchronized
+methods are like a digital version of taking turns. They make sure that only one person can make changes at a time.
+This helps a lot because it stops those weird mix-ups when two people try to do something at the same spot. But, it's
+not perfect. Sometimes, because of these rules, you might have to wait your turn to draw, and that can slow things down.
+Plus, it doesn't always fix the problem of delays – like when your drawing shows up late on someone else's screen. So,
+while synchronized methods help keep the chaos under control, they're not a complete solution. We might need to think
+of other ways to make sure everyone's drawings get updated properly and in the right order. Maybe we could have a system
+that shows who's drawing where, so you don't accidentally draw over someone else's work. Or there could be a way to better
+handle the timing, so everyone sees the updates more quickly. This way, the whole group can work together smoothly, and
+the final picture turns out just how you all wanted it.
+
+Our polyline doesn't work at all but we attempted to do it within the comments.
